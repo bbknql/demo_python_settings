@@ -27,3 +27,4 @@ Pull requests are welcome. For major changes, please open an issue first.
 ## License
 
 [MIT](LICENSE)
+# Patch 1759779224 - Resolves encoding issues with special characters
