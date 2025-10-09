@@ -7,10 +7,27 @@ Optimizes database queries
 
 ## Installation
 
+### Quick Start
 ```bash
 git clone https://github.com/user/demo_python_settings.git
 cd demo_python_settings
+pip install -e .
+```
+
+### Development Setup
+```bash
+git clone https://github.com/user/demo_python_settings.git
+cd demo_python_settings
+pip install -e ".[dev]"
+```
+
+### Alternative: Using requirements files
+```bash
+# For production
 pip install -r requirements.txt
+
+# For development
+pip install -r requirements-dev.txt
 ```
 
 ## Usage
